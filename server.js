@@ -97,7 +97,7 @@ app.get('/search/:collectionName/:searchItem', (request, response, next) => {
                         {
                             "autocomplete": {
                                 query: request.params.searchItem,
-                                path: 'topic',
+                                path: 'subject',
                                 "tokenOrder": "sequential"
                             },
                         },
